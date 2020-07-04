@@ -1,4 +1,7 @@
 <html>
+<meta name="description" content="Accounts following @itsN1X on GitHub">
+<meta name="keywords" content="itsN1X">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <style>
 .highlight {
@@ -134,30 +137,8 @@ h1,h2,h3,h4,h5,h6 {
  font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
  color:#b5e853;
  letter-spacing:-0.03em;
- text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1)
-}
-#main_content h1 {
- font-size:30px
-}
-#main_content h2 {
- font-size:24px
-}
-#main_content h3 {
- font-size:18px
-}
-#main_content h4 {
- font-size:14px
-}
-#main_content h5 {
- font-size:12px;
- text-transform:uppercase;
- margin:0 0 5px 0
-}
-#main_content h6 {
- font-size:12px;
- text-transform:uppercase;
- color:#999;
- margin:0 0 5px 0
+ text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+ text-align:center;
 }
 dt {
  font-style:italic;
@@ -186,18 +167,6 @@ code.highlighter-rouge {
  margin:0px -3px;
  color:#aa759f;
  border-radius:2px
-}
-table {
- width:100%;
- margin:0 0 20px 0
-}
-th {
- text-align:left;
- border-bottom:1px dashed #b5e853;
- padding:5px 10px
-}
-td {
- padding:5px 10px
 }
 hr {
  height:0;
@@ -233,7 +202,8 @@ hr {
 }
 a {
  color:#63c0f5;
- text-shadow:0 0 5px rgba(104,182,255,0.5)
+ text-shadow:0 0 5px rgba(104,182,255,0.5);
+ text-decoration:none;
 }
 .cf:before,.cf:after {
  content:"";
@@ -257,35 +227,100 @@ header {
 ::-moz-selection {
  background:purple
 }
+#XXXavier {
+ border-collapse:collapse;
+ margin:8% 0 0 25vw;
+ width:50vw;
+ border:1px solid #ddd;
+ font-size:18px
+}
+#XXXavier th {
+ text-align:center;
+ padding:12px;
+ font-size:18px
+}
+#XXXavier td {
+ padding:12px;
+ text-align:center;
+ font-size:12px
+}
+#XXXavier tr {
+ border-bottom:1px solid #ddd;
+ background-color:#020;
+}
+#XXXavier tr:hover {
+ background-color:#070;
+}
+#XXXavier tr.header {
+ background-color:#422121;
+ font-size:18px
+}
+#XXXavier tr.header:hover {
+  background-color: #BB3333;
+}
+#myInput {
+ margin:8% 0 0 25vw;
+ width:50vw
+}
 </style>
 </head>
 <body>
-<div id="itsN1X-8688_github_followers">
-<h2>Here is a current list of accounts that follow me!</h2>
-<hr><hr><hr><hr>
-<h4>VITAL CONTACTS</h4>
-<pre>@itsN1X on every network imaginable on tim's www
-github / itsN1X Source Organization for general public
+<h2>Accounts following @itsN1X on GitHub</h2>
 
-(C) 1996-* <14BME0333/> itsN1X :: PPA / xenon921
-zzPRaf1N1X42af
-</pre>
-<h3>Thank you for time!</h3>
-<h5>special thanks for the LoL's, Frank!</h5>
-Send $ETH love at 0xd6df5C1C8a2a5881E14855463cf576193c8721db.
-<h5>Visit <a href="https://9xo.github.io/R/teb">9xo/R</a> if you got other kinda love!</h5>
-| <a href="https://google.com/search?q=itsN1X">CREA10R</a> :: <a href="https://about.me/itsN1X">About them</a> | twitter:<a href="https://twitter.com/itsN1X">itsN1X</a> |
+<input type="text" id="myInput" onkeyup="sort()" placeholder="Search for assets.. ↑">
+
+<table id="XXXavier"></table>
+
+
+
 <hr><hr><hr><hr>
-<script src="8688_mgf.js"></script>
+<h3>Thank U for ya time!</h3>
+<h5>special thanks for the LoL's, Frank!</h5>
+<div align=center>$ETH :: 0xd6df5C1C8a2a5881E14855463cf576193c8721db</div>
+<h5>Visit <a href="https://9xo.github.io/R/teb">9xo/R</a> if you got other kinda love!</h5>
+<div align=center><font size=1><b><a href="https://google.com/search?q=itsN1X">CREA10R</a> :: <a href="https://about.me/itsN1X">About them</a> | Github:<a href="https://github.com/itsN1X">@itsN1X</a> :: twitter:<a href="https://twitter.com/itsN1X">@itsN1X</a></b></font></div>
+<hr><hr><hr><hr>
+
+<script src="d1593873533.js"></script>
 <script>
-const itsN1X_8688_github_followers = document.getElementById('itsN1X-8688_github_followers');
-for(i=0;i<lolHelloFrankDouglas.length;i++)
+
+
+const xxxavier = document.getElementById('XXXavier');
+
+for(i=0;i<df1.length;i++)
 {
-	const f = document.createElement('li');
-	f.innerText += lolHelloFrankDouglas[i].login;
-	itsN1X_8688_github_followers.appendChild(f)
-;}
+
+const xavier = document.createElement('tr');
+  const charles = document.createElement('td');
+  charles.innerHTML = '<a href="' + df1[i].html_url + '">' + df1[i].login + '</a>';
+  xavier.appendChild(charles);
+  const c1 = document.createElement('td');
+	c1.textContent = i+1;
+  xavier.appendChild(c1);
+xxxavier.appendChild(xavier);
+}
+
+
+													//new custom sortsortsort() :: @Z +%s=1592603382
+													//can match query to anywhere in (this=2;cols) table
+													//© 1996-2020 Nikhil itsN1X Pandita, EX(i)T Co. (P)
+function sort()
+{
+	input = document.getElementById("myInput");
+	filter = input.value.toUpperCase();
+	maez = document.getElementById("XXXavier");
+	rox = maez.getElementsByTagName("tr");
+	for (i = 0; i < rox.length; i++)
+	{
+		CD1 = rox[i].getElementsByTagName("td")[0];
+      		txtValue = CD1.textContent || CD1.innerText;
+		if (txtValue.toUpperCase().indexOf(filter) > -1)
+			{rox[i].style.display = "";}
+		else
+			{rox[i].style.display = "none";}
+	}
+}
 </script>
-</div>
+</script>
 </body>
 </html>
